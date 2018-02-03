@@ -12,3 +12,6 @@ HEADERS += \
     Vehicle.h \
     Car.h \
     Bike.h
+
+DISTFILES += *md \
+    README.md

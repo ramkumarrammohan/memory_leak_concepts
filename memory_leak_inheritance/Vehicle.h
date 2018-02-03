@@ -8,9 +8,18 @@ using namespace std;
 class Vehicle
 {
 public:
+    /**
+     * @brief Vehicle - Constructs vehicle with given specs
+     */
     Vehicle(string manf, string model, int year);
-    ~Vehicle();
-//    virtual ~Vehicle();
+
+    /**
+     * @brief ~Vehicle - Destructs base and derived class objs
+     */
+    virtual ~Vehicle();
+
+//    Doesn't care about derived objs when not starts with virtual
+//    ~Vehicle();
 
     string manufacturer();
     string model();

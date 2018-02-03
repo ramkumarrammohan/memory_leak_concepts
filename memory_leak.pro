@@ -5,3 +5,5 @@ CONFIG -= qt
 
 SUBDIRS += \
     memory_leak_inheritance
+
+DISTFILES += *.md

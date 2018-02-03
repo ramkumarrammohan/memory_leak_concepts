@@ -15,5 +15,7 @@ int main()
     delete duster;
     delete apache;
 
+    // In above deletions if base class destructor should needs be virtual
+
     return 0;
 }
